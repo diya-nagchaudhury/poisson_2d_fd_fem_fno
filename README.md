@@ -60,13 +60,14 @@ pip install torch numpy scipy matplotlib
 
 ```
 2d-poisson-solver/
-├── fno_model.py           # Fourier Neural Operator implementation
-├── finite_difference.py   # Classical FD solver with convergence study
-├── plotting_utils.py      # Visualization utilities
-├── common_functions.py    # Shared mathematical functions
-├── train_fno.py          # FNO training script
-├── examples/             # Example notebooks and scripts
-├── results/              # Generated plots and data
+├── src 
+    ├── fno_model.py           # Fourier Neural Operator implementation
+    ├── finite_difference.py   # Classical FD solver with convergence study
+    ├── plotting_utils.py      # Visualization utilities
+    ├── common_functions.py    # Shared mathematical functions
+    ├── train_fno.py          # FNO training script
+    ├── examples/             # Example notebooks and scripts
+    ├── results/              # Generated plots and data
 └── README.md
 ```
 
